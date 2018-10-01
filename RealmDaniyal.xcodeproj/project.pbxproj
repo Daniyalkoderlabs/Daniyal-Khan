@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E172B0D2161F0EA00FD40A1 /* JSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 2EDF7B2F215E5F4F00795587 /* JSON.json */; };
 		2E85ADE8215B8FAA00A7DD2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E85ADE7215B8FAA00A7DD2C /* AppDelegate.swift */; };
 		2E85ADEA215B8FAA00A7DD2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E85ADE9215B8FAA00A7DD2C /* ViewController.swift */; };
 		2E85ADED215B8FAA00A7DD2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E85ADEB215B8FAA00A7DD2C /* Main.storyboard */; };
@@ -23,6 +24,7 @@
 		2EC2CF4C215CDD0D003EC8C6 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC2CF4B215CDD0D003EC8C6 /* DBManager.swift */; };
 		2EDF7B28215E4AFA00795587 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDF7B27215E4AFA00795587 /* NetworkManager.swift */; };
 		2EDF7B2B215E4B8B00795587 /* Reachibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDF7B2A215E4B8B00795587 /* Reachibility.swift */; };
+		2EDF7B2E215E5BC400795587 /* ParseJsonRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDF7B2D215E5BC400795587 /* ParseJsonRealm.swift */; };
 		BCED608132549DB1A4138ECF /* Pods_RealmDaniyal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E2F6BD85447A1F201976C4 /* Pods_RealmDaniyal.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +49,8 @@
 		2EC2CF4B215CDD0D003EC8C6 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		2EDF7B27215E4AFA00795587 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		2EDF7B2A215E4B8B00795587 /* Reachibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachibility.swift; sourceTree = "<group>"; };
+		2EDF7B2D215E5BC400795587 /* ParseJsonRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseJsonRealm.swift; sourceTree = "<group>"; };
+		2EDF7B2F215E5F4F00795587 /* JSON.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = JSON.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 		A9760881B635ED0EDDAEA3CC /* Pods-RealmDaniyal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmDaniyal.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmDaniyal/Pods-RealmDaniyal.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +102,7 @@
 				2EC2CF47215CDC3D003EC8C6 /* RealmTesting.swift */,
 				2EA31CCD215CFC3D0040F109 /* InfoListingViewController.swift */,
 				2EA31CCF215CFE9E0040F109 /* InfoModel.swift */,
+				2EDF7B2F215E5F4F00795587 /* JSON.json */,
 			);
 			path = RealmDaniyal;
 			sourceTree = "<group>";
@@ -108,6 +113,7 @@
 				2EDF7B2A215E4B8B00795587 /* Reachibility.swift */,
 				2EC2CF4B215CDD0D003EC8C6 /* DBManager.swift */,
 				2EDF7B27215E4AFA00795587 /* NetworkManager.swift */,
+				2EDF7B2D215E5BC400795587 /* ParseJsonRealm.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -189,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E172B0D2161F0EA00FD40A1 /* JSON.json in Resources */,
 				2E85ADF2215B8FAC00A7DD2C /* LaunchScreen.storyboard in Resources */,
 				2E85ADEF215B8FAC00A7DD2C /* Assets.xcassets in Resources */,
 				2E85ADED215B8FAA00A7DD2C /* Main.storyboard in Resources */,
@@ -248,6 +255,7 @@
 				2EA31CD0215CFE9E0040F109 /* InfoModel.swift in Sources */,
 				2E85ADFA215B970F00A7DD2C /* AuthenticationModel.swift in Sources */,
 				2E85ADEA215B8FAA00A7DD2C /* ViewController.swift in Sources */,
+				2EDF7B2E215E5BC400795587 /* ParseJsonRealm.swift in Sources */,
 				2EC2CF48215CDC3D003EC8C6 /* RealmTesting.swift in Sources */,
 				2EC2CF4C215CDD0D003EC8C6 /* DBManager.swift in Sources */,
 				2EC2CF40215CBECF003EC8C6 /* Notebook.swift in Sources */,

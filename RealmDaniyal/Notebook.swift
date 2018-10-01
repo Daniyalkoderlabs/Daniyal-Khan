@@ -13,7 +13,6 @@ class Notebook: Object {
     
     @objc dynamic var name = ""
     var notes = List<Note>()
-    
     convenience init(name: String, notes: List<Note>) {
         self.init()
         self.name = name

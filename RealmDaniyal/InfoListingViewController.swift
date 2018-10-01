@@ -19,6 +19,11 @@ class InfoListingViewController: UIViewController {
         super.viewDidLoad()
         self.initiateProperties()
         
+        
+        //Parse JSON of another module
+        
+        ParseJsonRealm()
+        
         //Data from DB But in Realm Data Nature
         let datafromDB =  dbManager.retrivesObjects(Obj: InfoModel())
         
