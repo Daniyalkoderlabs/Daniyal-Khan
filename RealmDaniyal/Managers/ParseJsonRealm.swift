@@ -27,8 +27,8 @@ class ParseJsonRealm: NSObject {
                             print(widgetModel)
                             
                             let fetchWidgetModel = dbManager.retrivesObjects(Obj: WidgetModel())
-                            print(fetchWidgetModel)
-                
+                            let widgetArray : [WidgetModel] = dbManager.castArray(array: fetchWidgetModel) as! [WidgetModel]
+                            print(widgetArray.count)
                         }
                     }
                 }
